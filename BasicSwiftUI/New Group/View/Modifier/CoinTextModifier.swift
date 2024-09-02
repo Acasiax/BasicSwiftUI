@@ -11,8 +11,13 @@ struct CoinTextModifier: ViewModifier {
     let coin: CoinDummy
     
     func body(content: Content) -> some View {
-        content
-            .foregroundColor(.green)
+        if #available(iOS 15.0, *) {
+            content
+                .foregroundStyle(.green)
+        } else {
+            content
+                .foregroundColor(.green)
+        }
     }
 }
 
