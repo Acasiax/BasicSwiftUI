@@ -99,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				AAC37B212C86066500EEE65B /* SearchView.swift */,
-				AAC37B282C860B6100EEE65B /* MyCoinAppToolbar.swift */,
 				AAC37B2A2C860B7C00EEE65B /* SearchDetailView.swift */,
 				AAC37B2C2C860F3900EEE65B /* Modifier */,
 			);
@@ -110,8 +109,17 @@
 			isa = PBXGroup;
 			children = (
 				AAC37B2D2C860F4B00EEE65B /* CoinTextModifier.swift */,
+				AAC37B2F2C867B7D00EEE65B /* Toolbar */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		AAC37B2F2C867B7D00EEE65B /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				AAC37B282C860B6100EEE65B /* MyCoinAppToolbar.swift */,
+			);
+			path = Toolbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
