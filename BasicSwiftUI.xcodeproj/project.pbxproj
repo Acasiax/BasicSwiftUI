@@ -101,6 +101,7 @@
 				AAC37B212C86066500EEE65B /* SearchView.swift */,
 				AAC37B2A2C860B7C00EEE65B /* SearchDetailView.swift */,
 				AAC37B2C2C860F3900EEE65B /* Modifier */,
+				AAC37B2F2C867B7D00EEE65B /* Toolbar */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -109,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				AAC37B2D2C860F4B00EEE65B /* CoinTextModifier.swift */,
-				AAC37B2F2C867B7D00EEE65B /* Toolbar */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
