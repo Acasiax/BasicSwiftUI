@@ -20,6 +20,6 @@ struct SearchDetailView: View {
     
     init(data: String) {
         self.data = data
-        print("서치디테일뷰우 \(data)")
+       // print("서치디테일뷰우 \(data)")
     }
 }
