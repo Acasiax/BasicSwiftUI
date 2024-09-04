@@ -90,8 +90,8 @@ extension CoinSearchView {
     
     func listView() -> some View {
         LazyVStack{
-            ForEach(filterCoinName, id: \.self ){ item in
-                
+            ForEach(filterCoinName, id: \.id ){ item in
+               // NavigationLink는 ForEach문 내부에서 하기
                 NavigationLink(destination: CoinDetailView(coin: item)) {
                     rowView(item)
                 }

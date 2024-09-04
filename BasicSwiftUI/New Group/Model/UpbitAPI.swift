@@ -8,7 +8,8 @@ import Foundation
 //import SwiftUI
 
 //MARK: - Market
-struct Market: Hashable, Codable {
+struct Market: Hashable, Codable, Identifiable {
+    let id = UUID()
     let market, koreanName, englishName: String
     var isStarred: Bool = false
     
