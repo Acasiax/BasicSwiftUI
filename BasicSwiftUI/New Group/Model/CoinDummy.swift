@@ -20,3 +20,6 @@ let coins = [
     CoinDummy(coinName: "Doge", price: 170),
     CoinDummy(coinName: "Fincia", price: 200)
 ]
+
+
+

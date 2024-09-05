@@ -8,7 +8,6 @@
 import SwiftUI
 
 // MARK: - 배너
-
 struct CoinSearchView: View {
     
     @State private var text = ""
@@ -33,7 +32,7 @@ struct CoinSearchView: View {
                     //
                 }
                 .foregroundStyle(.white)
-                .background(.black)
+                .background(.black).opacity(0.7)
                 
                 .navigationTitle("Search")
                 .navigationBarTitleTextColor(.white)
