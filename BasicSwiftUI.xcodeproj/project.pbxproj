@@ -13,6 +13,7 @@
 		AA1B06BD2C8954A40097860B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B06BC2C8954A40097860B /* Home.swift */; };
 		AA1B06C02C899A970097860B /* MyRandomImageHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B06BF2C899A970097860B /* MyRandomImageHomeView.swift */; };
 		AA1B06C22C89A4C90097860B /* HorizontalSeactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B06C12C89A4C90097860B /* HorizontalSeactionView.swift */; };
+		AA1B06C62C89A6290097860B /* seactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B06C52C89A6290097860B /* seactionViewModel.swift */; };
 		AAC37B142C86063400EEE65B /* BasicSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC37B132C86063400EEE65B /* BasicSwiftUIApp.swift */; };
 		AAC37B162C86063400EEE65B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC37B152C86063400EEE65B /* ContentView.swift */; };
 		AAC37B182C86063500EEE65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC37B172C86063500EEE65B /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		AA1B06BC2C8954A40097860B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		AA1B06BF2C899A970097860B /* MyRandomImageHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomImageHomeView.swift; sourceTree = "<group>"; };
 		AA1B06C12C89A4C90097860B /* HorizontalSeactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSeactionView.swift; sourceTree = "<group>"; };
+		AA1B06C52C89A6290097860B /* seactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seactionViewModel.swift; sourceTree = "<group>"; };
 		AAC37B102C86063400EEE65B /* BasicSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC37B132C86063400EEE65B /* BasicSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSwiftUIApp.swift; sourceTree = "<group>"; };
 		AAC37B152C86063400EEE65B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,11 +67,28 @@
 		AA1B06BE2C899A750097860B /* 67회차 과제 */ = {
 			isa = PBXGroup;
 			children = (
+				AA1B06C42C89A61A0097860B /* Model */,
+				AA1B06C32C89A6150097860B /* View */,
 				AA1B06BF2C899A970097860B /* MyRandomImageHomeView.swift */,
 				AA1B06C12C89A4C90097860B /* HorizontalSeactionView.swift */,
 			);
 			name = "67회차 과제";
 			path = "67회차 과제";
+			sourceTree = "<group>";
+		};
+		AA1B06C32C89A6150097860B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA1B06C42C89A61A0097860B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1B06C52C89A6290097860B /* seactionViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AAC37B072C86063400EEE65B = {
@@ -235,6 +254,7 @@
 				AA1B06B52C86F3B80097860B /* CoinSearchView.swift in Sources */,
 				AAC37B222C86066500EEE65B /* SearchView.swift in Sources */,
 				AAC37B2B2C860B7C00EEE65B /* SearchDetailView.swift in Sources */,
+				AA1B06C62C89A6290097860B /* seactionViewModel.swift in Sources */,
 				AAC37B142C86063400EEE65B /* BasicSwiftUIApp.swift in Sources */,
 				AA1B06C02C899A970097860B /* MyRandomImageHomeView.swift in Sources */,
 				AAC37B262C8607C500EEE65B /* CoinDummy.swift in Sources */,

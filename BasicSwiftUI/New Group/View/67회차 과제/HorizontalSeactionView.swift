@@ -23,7 +23,6 @@ struct HorizontalSeactionView: View {
 
 
 
-
 struct PosterView: View {
     
     let url = URL(string: "https://picsum.photos/200/300")

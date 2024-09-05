@@ -9,9 +9,7 @@ import SwiftUI
 
 struct MyRandomImageHomeView: View {
     
-   @State var list = [
-    "첫번째 세션", "두번째 세션", "세번째 세션"
-    ]
+    @State var list = SessionModel.sessionList
     
     var body: some View {
         NavigationView{
@@ -19,15 +17,11 @@ struct MyRandomImageHomeView: View {
                 ForEach(list, id: \.self) { item in
                     
                     NavigationLink {
-                        
                         MyRandomDetailView(seactionTitle: item)
                         
                     } label: {
-                        
                         makeSection(item)
                     }
-
-                  //  makeSection(item)
                     
                 }
             }
@@ -36,9 +30,6 @@ struct MyRandomImageHomeView: View {
     }
 }
 
-#Preview {
-    MyRandomImageHomeView()
-}
 
 
 extension MyRandomImageHomeView {
@@ -56,6 +47,11 @@ extension MyRandomImageHomeView {
         }
     }
     
+}
+
+
+#Preview {
+    MyRandomImageHomeView()
 }
 
 
