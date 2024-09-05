@@ -10,13 +10,10 @@ import SwiftUI
 struct SearchView: View {
     
     @State private var text = ""
-    
-    
-    
+
     var body: some View {
         NavigationView {
            
-                
         List {
 
                 ForEach(coins) { coin in

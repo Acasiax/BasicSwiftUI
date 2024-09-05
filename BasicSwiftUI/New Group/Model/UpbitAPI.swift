@@ -5,13 +5,14 @@
 //  Created by 이윤지 on 9/3/24.
 //
 import Foundation
-//import SwiftUI
+import SwiftUI
 
 //MARK: - Market
 struct Market: Hashable, Codable, Identifiable {
     let id = UUID()
     let market, koreanName, englishName: String
     var isStarred: Bool = false
+    let color = Color.random()
     
     enum CodingKeys: String, CodingKey {
         case market
